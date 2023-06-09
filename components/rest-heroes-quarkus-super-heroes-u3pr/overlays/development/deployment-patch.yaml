@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: rest-heroes-quarkus-super-heroes-u3pr
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/mramdani-tenant/quarkus-super-heroes/rest-heroes-quarkus-super-heroes-u3pr@sha256:d0ff19a1d5a38af5af11e26218ff81c48ff6eeee4263c3acd9e89290a6c62101
+        name: my-java-quarkus
+        resources: {}
+status: {}
