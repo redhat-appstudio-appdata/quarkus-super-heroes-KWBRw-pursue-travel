@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: rest-villains-quarkus-super-heroes-ofm8
     app.kubernetes.io/part-of: quarkus-super-heroes
-  name: rest-villains-quarkus-supjixr
+  name: rest-villains-quarkus-supob73
 spec:
   path: /
   port:
