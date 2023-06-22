@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: rest-fights-quarkus-super-heroes-yca7
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/mramdani-tenant/quarkus-super-heroes/rest-fights-quarkus-super-heroes-yca7@sha256:71d733421953d0d8fbd0e70f3258d2c4eda94191d4356b1d01591b20cdccadfe
+        name: my-java-quarkus
+        resources: {}
+status: {}
