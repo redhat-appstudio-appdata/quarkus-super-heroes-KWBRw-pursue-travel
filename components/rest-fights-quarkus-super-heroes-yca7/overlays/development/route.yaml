@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: rest-fights-quarkus-super-heroes-yca7
     app.kubernetes.io/part-of: quarkus-super-heroes
-  name: rest-fights-quarkus-super68h6
+  name: rest-fights-quarkus-superc8nb
 spec:
   path: /
   port:
