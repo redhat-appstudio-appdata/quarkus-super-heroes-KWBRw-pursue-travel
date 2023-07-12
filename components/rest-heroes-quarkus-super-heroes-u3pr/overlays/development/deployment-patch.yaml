@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: rest-heroes-quarkus-super-heroes-u3pr
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
