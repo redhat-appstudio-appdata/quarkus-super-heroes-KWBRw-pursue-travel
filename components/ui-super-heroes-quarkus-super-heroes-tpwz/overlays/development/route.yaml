@@ -1,0 +1,22 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: ui-super-heroes-quarkus-super-heroes-tpwz
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: ui-super-heroes-quarkus-super-heroes-tpwz
+    app.kubernetes.io/part-of: quarkus-super-heroes
+  name: ui-super-heroes-quarkus-sdssz
+spec:
+  port:
+    targetPort: 8080
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  to:
+    kind: Service
+    name: ui-super-heroes-quarkus-super-heroes-tpwz
+    weight: 100
+status: {}

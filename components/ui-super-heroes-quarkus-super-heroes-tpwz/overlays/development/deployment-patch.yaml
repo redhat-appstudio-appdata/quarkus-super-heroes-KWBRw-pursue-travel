@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: ui-super-heroes-quarkus-super-heroes-tpwz
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/mramdani-tenant/quarkus-super-heroes/ui-super-heroes-quarkus-super-heroes-tpwz@sha256:8e9b84e310ff5aa362e6f6d16730ac84736732c542fcf61d52c11592789b6cae
+        name: container-image
+        resources: {}
+status: {}
