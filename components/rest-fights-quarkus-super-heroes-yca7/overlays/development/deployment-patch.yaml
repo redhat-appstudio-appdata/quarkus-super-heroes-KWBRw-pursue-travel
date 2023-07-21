@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: rest-fights-quarkus-super-heroes-yca7
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
