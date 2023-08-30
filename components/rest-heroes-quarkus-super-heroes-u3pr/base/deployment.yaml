@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: rest-heroes-quarkus-super-heroes-u3pr
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/mramdani-tenant/quarkus-super-heroes/rest-heroes-quarkus-super-heroes-u3pr@sha256:d0ff19a1d5a38af5af11e26218ff81c48ff6eeee4263c3acd9e89290a6c62101
+      - image: quay.io/redhat-user-workloads/mramdani-tenant/quarkus-super-heroes/rest-heroes-quarkus-super-heroes-u3pr@sha256:9d11042b22aa3a7df0aea40b114dc2de13fe014c10b67fc649853dd20fb8ce71
         name: my-java-quarkus
         ports:
         - containerPort: 8081
