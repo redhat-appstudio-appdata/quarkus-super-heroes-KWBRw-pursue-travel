@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: rest-fights-quarkus-super-heroes-yca7
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/mramdani-tenant/quarkus-super-heroes/rest-fights-quarkus-super-heroes-yca7@sha256:71d733421953d0d8fbd0e70f3258d2c4eda94191d4356b1d01591b20cdccadfe
+      - image: quay.io/redhat-user-workloads/mramdani-tenant/quarkus-super-heroes/rest-fights-quarkus-super-heroes-yca7@sha256:ca9147f75a829dbdb562a2827dc02a0517db08d5c989d583ca2fc78ab1f3d34e
         name: my-java-quarkus
         ports:
         - containerPort: 8081
