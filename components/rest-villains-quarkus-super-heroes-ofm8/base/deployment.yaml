@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: quarkus-super-heroes
   name: rest-villains-quarkus-super-heroes-ofm8
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: rest-villains-quarkus-super-heroes-ofm8
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-user-workloads/mramdani-tenant/quarkus-super-heroes/rest-villains-quarkus-super-heroes-ofm8@sha256:a6b01b4e7ed75e34c2b157bff00d9e5e46ac46a2a746eb01827316794b55f63d
         name: my-java-quarkus
         ports:
         - containerPort: 8081
