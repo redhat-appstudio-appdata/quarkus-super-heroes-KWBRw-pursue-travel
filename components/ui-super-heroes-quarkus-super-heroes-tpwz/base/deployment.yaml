@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: quarkus-super-heroes
   name: ui-super-heroes-quarkus-super-heroes-tpwz
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: ui-super-heroes-quarkus-super-heroes-tpwz
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/mramdani-tenant/quarkus-super-heroes/ui-super-heroes-quarkus-super-heroes-tpwz@sha256:8e9b84e310ff5aa362e6f6d16730ac84736732c542fcf61d52c11592789b6cae
         imagePullPolicy: Always
         name: container-image
         ports:
